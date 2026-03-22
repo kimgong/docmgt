@@ -47,8 +47,9 @@ namespace DocMgt.Views
 
             // TODO: 调用登录验证 API
             // 模拟登录成功
-            MessageBoxHelper.Show("登录成功！", "提示", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show(this, "登录成功！", "提示", MessageBoxButton.OK, MessageBoxImage.Information);
             this.DialogResult = true;
+            this.Close();
         }
     }
 }
