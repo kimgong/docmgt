@@ -1,0 +1,45 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+*.log
+*.suo
+*.user
+*.userosscache
+*.suo.user
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.log
+[Pp]ackages/
+*.nupkg
+*.snk
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.cache
+*.generated
+*.vs
+
+# Visual Studio cache
+.vs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.suo.user
+
+# Build results
+obj/
+bin/
